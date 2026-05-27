@@ -1,17 +1,26 @@
 {
   "name": "@tenders-sa-org/widget-winners-feed",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "Tenders-SA Winners Feed Widget - Embeddable live feed of recently awarded tenders",
   "homepage": "https://tenders-sa.org/publishers/developers",
-  "bugs": { "url": "https://github.com/Tenders-SA/widget-winners-feed/issues" },
+  "bugs": {
+    "url": "https://github.com/Tenders-SA/widget-winners-feed/issues"
+  },
   "license": "MIT",
   "author": "Tenders-SA (https://tenders-sa.org)",
-  "repository": { "type": "git", "url": "git+https://github.com/Tenders-SA/widget-winners-feed.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tenders-SA/widget-winners-feed.git"
+  },
   "type": "module",
   "main": "./dist/widget-winners-feed.global.js",
   "module": "./dist/widget-winners-feed.js",
   "types": "./dist/widget-winners-feed.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -19,8 +28,12 @@
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
-  "publishConfig": { "access": "public" },
-  "engines": { "node": ">=18" },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "packageManager": "npm@11+",
   "devDependencies": {
     "@types/node": "^25.9.1",

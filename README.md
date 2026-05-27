@@ -1,4 +1,4 @@
-# @tendersa/widget-winners-feed
+# @tenders-sa-org/widget-winners-feed
 
 Tenders-SA Winners Feed Widget — Embeddable live feed of recently awarded tenders in South Africa.
 
@@ -7,18 +7,18 @@ Tenders-SA Winners Feed Widget — Embeddable live feed of recently awarded tend
 ### Script tag (IIFE)
 
 ```html
-<script src="https://unpkg.com/@tendersa/widget-winners-feed@latest/dist/widget-winners-feed.global.js"></script>
+<script src="https://unpkg.com/@tenders-sa-org/widget-winners-feed@latest/dist/widget-winners-feed.global.js"></script>
 <div data-tendersa-winners-feed style="width: 400px; height: 500px;"></div>
 ```
 
 ### NPM (ESM)
 
 ```bash
-npm install @tendersa/widget-winners-feed
+npm install @tenders-sa-org/widget-winners-feed
 ```
 
 ```typescript
-import { WinnersFeedWidget } from '@tendersa/widget-winners-feed'
+import { WinnersFeedWidget } from '@tenders-sa-org/widget-winners-feed'
 
 const container = document.getElementById('my-widget')
 const widget = new WinnersFeedWidget(container, { theme: 'dark' })

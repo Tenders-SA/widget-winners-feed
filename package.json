@@ -1,5 +1,5 @@
 {
-  "name": "@tendersa/widget-winners-feed",
+  "name": "@tenders-sa-org/widget-winners-feed",
   "version": "0.1.0-alpha.0",
   "description": "Tenders-SA Winners Feed Widget - Embeddable live feed of recently awarded tenders",
   "homepage": "https://tenders-sa.org/publishers/developers",
@@ -10,7 +10,7 @@
   "type": "module",
   "main": "./dist/widget-winners-feed.global.js",
   "module": "./dist/widget-winners-feed.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/widget-winners-feed.d.ts",
   "files": ["dist", "README.md", "LICENSE"],
   "scripts": {
     "build": "tsup",
@@ -19,6 +19,7 @@
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
+  "publishConfig": { "access": "public" },
   "engines": { "node": ">=18" },
   "packageManager": "npm@11+",
   "devDependencies": {
